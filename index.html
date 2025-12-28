@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Showdown — RO Edition</title>
+</head>
+<body class="dark-theme"> <div class="controls">
+        <button id="theme-toggle" class="btn-link">Toggle Appearance</button>
+        <button id="lang-toggle" class="btn-link">UA / EN</button>
+    </div>
+
+    <form class="user-form" id="form">
+        <input type="text" id="search1" placeholder="User 1" required>
+        <input type="text" id="search2" placeholder="User 2" required>
+        <button type="submit" id="submit-btn">Compare</button>
+    </form>
+
+    <main id="main"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
